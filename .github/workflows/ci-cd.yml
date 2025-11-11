@@ -23,11 +23,14 @@ jobs:
 
       - name: Install dependencies
         run: |
+          pip install --upgrade pip
           pip install -r app/requirements.txt
           pip install pytest
 
       - name: Run tests
-        run: pytest
+        env:
+          PYTHONPATH: .
+        run: pytest -v
 
       - name: Build Docker image
         run: docker build -t fastapi-demo:latest .
