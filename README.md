@@ -62,9 +62,9 @@ Visit your app at 👉 **http://127.0.0.1:8000**
 
 ---
 
-images/Screenshot 2025-11-11 145219.png
+![Screenshot](images/Screenshot%202025-11-11%20145219.png)
 
-images/Screenshot 2025-11-11 155656.png
+![CI/CD Pipeline Screenshot](images/Screenshot%202025-11-11%20155656.png)
 
 ## 🧪 Running Tests
 
