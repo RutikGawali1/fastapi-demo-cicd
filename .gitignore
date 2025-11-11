@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# VS Code
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs and cache
+*.log
+*.out
+*.err
+*.pid
+*.sqlite3
+*.db
+.cache/
+pytest_cache/
+coverage/
+htmlcov/
+
+# Docker
+*.tar
+*.pid
+*.sock
+docker-compose.override.yml
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# GitHub Actions temporary files
+*.bak
+*.tmp
+
+# Ignore environment variables or secrets (if you create one later)
+.env
